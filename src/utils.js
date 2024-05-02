@@ -1,1 +1,11 @@
-// Your code here
+// src/utils.js
+
+function isPalindrome(str) {
+    const reversedStr = str.split('').reverse().join('');
+    return str === reversedStr;
+  }
+  
+  module.exports = {
+    isPalindrome,
+  };
+  
